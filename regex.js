@@ -38,6 +38,7 @@
     obj.emailValidation('abc@yahoo.com')
     obj.valueValidation('400088')
     obj.valueValidation('400 088')
+    obj.emailValidation('abcyahoo.com')
     obj.emailValidation('@ymy.co')
     }
     catch(e)
