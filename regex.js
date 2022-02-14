@@ -22,7 +22,7 @@ class ValidationCheck{
 let obj=new ValidationCheck();
   try{
   obj.valueValidation(400088)
-  obj.valueValidation(4123)
+  obj.valueValidation('A400088')
   }
   catch(e)
   {
